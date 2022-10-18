@@ -97,9 +97,6 @@ plt.show()
 
 
 """
-plt.plot(train['Close'])
-plt.plot(valid[['Close','Predictions']])
-plt.legend(['Train', 'Real price', 'Predictions'], loc='lower right')
 #Comandi da shell
 #%timeit dft(x)
 #%timeit fft(x)
